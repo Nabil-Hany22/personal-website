@@ -552,7 +552,7 @@ html:has(.toggle__checkbox:checked) {
 
 @media (max-width: 1000px) {
   html {
-    font-size: 8x;
+    font-size: 8px;
   }
 }
 @media (max-width: 800px) {
