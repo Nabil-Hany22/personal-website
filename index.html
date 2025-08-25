@@ -11,138 +11,104 @@
       rel="stylesheet"
     />
     <!-- style file -->
-    <link rel="stylesheet" href="/style.css" />
-    <!-- icon image -->
-    <link rel="icon" type="image/x-icon" href="/images/developer.png" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/developer.png">
     <title>Nabil Hany</title>
   </head>
   <body>
-    <!-- Header Start -->
-    <header class="header">
-      <!-- navbar -->
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li>
-            <a href="#bio" class="navigation__link navigation__bio">Bio</a>
-          </li>
-          <li>
-            <a href="#skills" class="navigation__link navigation__skills"
-              >Skills</a
-            >
-          </li>
-          <li>
-            <a href="#media" class="navigation__link navigation__media"
-              >Media</a
-            >
-          </li>
-          <li>
-            <a href="#projects" class="navigation__link navigation__projects"
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a href="#clients" class="navigation__link navigation__clients"
-              >My Clients</a
-            >
-          </li>
-          <li>
-            <a href="#contact" class="navigation__link navigation__contact"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <!-- toggle -->
-      <div class="toggle">
-        <h3 class="toggle__title">Switch Theme</h3>
-        <input
-          type="checkbox"
-          name="toggle-checkbox"
-          id="toggle"
-          class="toggle__checkbox"
-        />
-        <label for="toggle" class="toggle__label"></label>
-      </div>
-    </header>
-    <!-- Header End -->
+    <div class="container">
 
-    <!-- Bio Start -->
-    <section id="bio" class="bio section">
-      <div class="bio__data">
-        <h1 class="bio__heading">
-          Hi There, I’M A Passionate Software Engineer
-        </h1>
+      <!-- background video -->
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4"/>
+      </video>
 
-        <p class="bio__objective">
-          My name is <span class="bio__name">Nabil Hany</span>, a Frontend
-          Developer and a content creator sharing knowledge on
-          <a
-            href="https://www.linkedin.com/in/nabil-el-amrawy/"
-            class="bio__linkedin"
-            target="_blank"
-            >LinkedIn</a
-          >,
-          <a
-            href="https://x.com/Nabil_Hany22"
-            class="bio__twitter"
-            target="_blank"
-            >Twitter</a
-          >,
-          <a
-            href="https://www.facebook.com/nabil.hany.294920"
-            class="bio__facebook"
-            target="_blank"
-            >Facebook</a
-          >, and
-          <a
-            href="https://www.instagram.com/nabil.hany22/"
-            class="bio__instagram"
-            target="_blank"
-            >Instagram</a
-          >.
-        </p>
+      <!-- Header Start -->
+      <header class="header">
 
-        <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
-        <a href="/cv_file.pdf" class="bio__links find-out-link" target="_blank"
-          >Download CV <span class="bio__arrow">↓</span></a
-        >
-      </div>
+        <!-- burger menu for mobile -->
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input type="checkbox" class="burger-menu__checkbox" id="menu">
 
-      <div class="bio__pic-content">
-        <img class="bio__pic" src="images/personal-pic.png" alt="Nabil Image" />
-      </div>
-    </section>
-    <!-- Bio End -->
+        <!-- navbar -->
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
+            <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
+            <li><a href="#media" class="navigation__link navigation__media">Media</a></li>
+            <li><a href="#projects" class="navigation__link navigation__projects">Projects</a></li>
+            <li><a href="#clients" class="navigation__link navigation__clients">My Clients</a></li>
+            <li><a href="#contact" class="navigation__link navigation__contact">Contact</a></li>
+          </ul>
+        </nav> 
+        <!-- toggle -->
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input type="checkbox" name="toggle-checkbox" id="toggle" class="toggle__checkbox">
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+      <!-- Header End -->
 
-          <!-- Skills Start -->
-          <section id="skills" class="section skills section--with--bg">
-            <h2 class="h2-heading">SKILLS</h2>
-    
-            <ul class="skills__list">
-              <li class="skills__item">
-                <h2 class="skills__title">HTML</h2>
-              </li>
-              <li class="skills__item">
-                <h2 class="skills__title">CSS</h2>
-              </li>
-              <li class="skills__item">
-                <h2 class="skills__title">Javascript</h2>
-              </li>
-              <li class="skills__item">
-                <h2 class="skills__title">React</h2>
-              </li>
-              <li class="skills__item">
-                <h2 class="skills__title">Redux</h2>
-              </li>
-              <li class="skills__item">
-                <h2 class="skills__title">React Testing Library</h2>
-              </li>
-    
-    
-          </section>
-          <!-- Skills End -->
+      <!-- Bio Start -->
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate Software Engineer
+          </h1>
+  
+          <p class="bio__objective">
+            My name is <span class="bio__name">Nabil Hany</span>, a Frontend Developer and a content creator sharing knowledge on
+            <a href="https://www.linkedin.com/in/nabil-el-amrawy/" class="bio__linkedin" target="_blank">LinkedIn</a>,
+            <a href="https://x.com/Nabil_Hany22" class="bio__twitter" target="_blank">Twitter</a>,
+            <a href="https://www.facebook.com/nabil.hany.294920" class="bio__facebook" target="_blank">Facebook</a>,
+            and <a href="https://www.instagram.com/nabil.hany22/" class="bio__instagram" target="_blank">Instagram</a>.
+          </p>
+  
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="/cv_file.pdf" class="bio__links find-out-link" target="_blank">Download CV <span class="bio__arrow">↓</span></a>
+        
+        </div>
 
-                <!-- Media Start -->
+        <div class="bio__pic-content">
+          <img class="bio__pic" src="images/personal-pic.png" alt="Nabil Image">
+        </div>
+      </section>
+      <!-- Bio End -->
+
+      <!-- Skills Start -->
+      <section id="skills" class="section skills section--with--bg">
+        <h2 class="h2-heading">SKILLS</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React Testing Library</h2>
+          </li>
+
+
+      </section>
+      <!-- Skills End -->
+
+      <!-- Media Start -->
       <section id="media" class="media section">
         <h2 class="h2-heading">MEDIA</h2>
 
@@ -193,45 +159,45 @@
       </section>
       <!-- Media End -->
 
-            <!-- Projcts Start -->
-            <section id="projects" class="projects section">
-                <h2 class="h2-heading">MY FEATURED <br> PROJECTS</h2>
-                
-                <div class="projects__main">
-                  <img class="projects__img" src="./images/project-1.png" alt="foodlover">
-                
-                  <div class="projects__data">
-                    <h3 class="h3-heading">
-                      Food Lover<br>
-                      Restaurant
-                    </h3>
-                    <p class="projects__description">
-                      Food Lover Restaurant Website is a modern and responsive landing page for a restaurant, showcasing its story, menu highlights, and services with a clean and elegant design.
-                    </p>
-                    <a href="https://github.com/Nabil-Hany22/food-lover-restaurant-website" class="projects__link" target="_blank">Repository Link</a>
-                    <span>-</span>
-                    <a href="https://nabil-hany22.github.io/food-lover-restaurant-website/index.html" class="projects__link" target="_blank">Live Demo Link</a>
-                  </div>
-                
-                  <div class="projects__data">
-                    <h3 class="h3-heading">
-                      Testimonials Grid <br>
-                      Section
-                    </h3>
-                    <p class="projects__description">
-                      Responsive testimonials section using HTML, CSS Grid, and Flexbox, crafted to be sleek, adaptive, and visually engaging across all screen sizes.
-                    </p>
-                    
-                    <a href="https://github.com/Nabil-Hany22/Testimonials-Grid-Section---Frontend-Mentor-Challenge" class="projects__link" target="_blank">Repository Link</a>
-                    <span>-</span>
-                    <a href="https://nabil-hany22.github.io/Testimonials-Grid-Section---Frontend-Mentor-Challenge/" class="projects__link" target="_blank">Live Demo Link</a>
-                  </div>
-                  <img class="projects__img" src="./images/project-2.png" alt="testmonials">
-                </div>
-              </section>
-              <!-- Projcts End -->
+      <!-- Projcts Start -->
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">MY FEATURED <br> PROJECTS</h2>
+        
+        <div class="projects__main">
+          <img class="projects__img" src="./images/project-1.png" alt="foodlover">
+        
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Food Lover<br>
+              Restaurant
+            </h3>
+            <p class="projects__description">
+              Food Lover Restaurant Website is a modern and responsive landing page for a restaurant, showcasing its story, menu highlights, and services with a clean and elegant design.
+            </p>
+            <a href="https://github.com/Nabil-Hany22/food-lover-restaurant-website" class="projects__link" target="_blank">Repository Link</a>
+            <span>-</span>
+            <a href="https://nabil-hany22.github.io/food-lover-restaurant-website/index.html" class="projects__link" target="_blank">Live Demo Link</a>
+          </div>
+        
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Testimonials Grid <br>
+              Section
+            </h3>
+            <p class="projects__description">
+              Responsive testimonials section using HTML, CSS Grid, and Flexbox, crafted to be sleek, adaptive, and visually engaging across all screen sizes.
+            </p>
+            
+            <a href="https://github.com/Nabil-Hany22/Testimonials-Grid-Section---Frontend-Mentor-Challenge" class="projects__link" target="_blank">Repository Link</a>
+            <span>-</span>
+            <a href="https://nabil-hany22.github.io/Testimonials-Grid-Section---Frontend-Mentor-Challenge/" class="projects__link" target="_blank">Live Demo Link</a>
+          </div>
+          <img class="projects__img" src="./images/project-2.png" alt="testmonials">
+        </div>
+      </section>
+      <!-- Projcts End -->
 
-                    <!-- Clients Start -->
+      <!-- Clients Start -->
       <section id="clients" class="clients section section--with--bg">
         <h2 class="h2-heading">
           What My<br> Clients Says.
@@ -253,59 +219,59 @@
       </section>
       <!-- Clients End -->
 
-            <!-- Contact Start -->
-            <section id="contact" class="contact section">
-                <div>
-                  <p class="contact__description">
-                    Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away.
-                  </p>
-                  <a href="mailto:nhany474@gmail.com" class="contact__email">nhany474@gmail.com</a>
-                  <div class="contact__socials">
-                    <a href="https://www.facebook.com/nabil.hany.294920" class="contact__social" target="_blank">
-                      <img src="images/brand/facebook.svg" alt="icon of facebook">
-                    </a>
-                    <a href="https://x.com/Nabil_Hany22" class="contact__social" target="_blank">
-                      <img src="images/brand/twitter.svg" alt="icon of twitter">
-                    </a>
-                    <a href="https://github.com/Nabil-Hany22" class="contact__social" target="_blank">
-                      <img src="images/brand/github.svg" alt="icon of github">
-                    </a>
-                    <a href="https://www.instagram.com/nabil.hany22/" class="contact__social" target="_blank">
-                      <img src="images/brand/instagram.svg" alt="icon of instagram">
-                    </a>
-                    <a href="https://www.linkedin.com/in/nabil-el-amrawy/" class="contact__social" target="_blank">
-                      <img src="images/brand/LinkedIn.svg" alt="icon of LinkedIn">
-                    </a>
-                  </div>
-                </div>
-        
-                <div class="contact__formContent">
-                  <h2 class="h2-heading">
-                    Let’s Work<br> Together!.
-                  </h2>
-        
-                  <form action="results.html">
-                    <div class="contact__inputs">
-                      <input class="contact__input" type="text" name="user-name" id="user-name" placeholder="Full Name" required>
-                      <input class="contact__input" type="tel" name="user-number" id="user-number" placeholder="Phone No." 
-                      inputmode="numeric"
-                      pattern="[0-9]*"
-                      maxlength="15"
-                      title="Digits only" required>
-                    </div>
-                    <textarea class="contact__input contact__textarea" name="user-description" id="user-description" rows="1" placeholder="Your Message" required></textarea>
-                      <button class="contact__button" type="submit">Send Message</button>
-                  </form>
-        
-                </div>
-              </section>
-              <!-- Contact End -->
+      <!-- Contact Start -->
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away.
+          </p>
+          <a href="mailto:nhany474@gmail.com" class="contact__email">nhany474@gmail.com</a>
+          <div class="contact__socials">
+            <a href="https://www.facebook.com/nabil.hany.294920" class="contact__social" target="_blank">
+              <img src="images/brand/facebook.svg" alt="icon of facebook">
+            </a>
+            <a href="https://x.com/Nabil_Hany22" class="contact__social" target="_blank">
+              <img src="images/brand/twitter.svg" alt="icon of twitter">
+            </a>
+            <a href="https://github.com/Nabil-Hany22" class="contact__social" target="_blank">
+              <img src="images/brand/github.svg" alt="icon of github">
+            </a>
+            <a href="https://www.instagram.com/nabil.hany22/" class="contact__social" target="_blank">
+              <img src="images/brand/instagram.svg" alt="icon of instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/nabil-el-amrawy/" class="contact__social" target="_blank">
+              <img src="images/brand/LinkedIn.svg" alt="icon of LinkedIn">
+            </a>
+          </div>
+        </div>
 
-                    <!-- Footer Start -->
+        <div class="contact__formContent">
+          <h2 class="h2-heading">
+            Let’s Work<br> Together!.
+          </h2>
+
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input class="contact__input" type="text" name="user-name" id="user-name" placeholder="Full Name" required>
+              <input class="contact__input" type="tel" name="user-number" id="user-number" placeholder="Phone No." 
+              inputmode="numeric"
+              pattern="[0-9]*"
+              maxlength="15"
+              title="Digits only" required>
+            </div>
+            <textarea class="contact__input contact__textarea" name="user-description" id="user-description" rows="1" placeholder="Your Message" required></textarea>
+              <button class="contact__button" type="submit">Send Message</button>
+          </form>
+
+        </div>
+      </section>
+      <!-- Contact End -->
+
+      <!-- Footer Start -->
       <footer class="footer">
         ©2025 By <a class="footer__link" href="https://www.linkedin.com/in/nabil-el-amrawy/"><strong>Nabil Hany</strong></a>
       </footer>
       <!-- Footer End -->
-
+    </div>
   </body>
 </html>
