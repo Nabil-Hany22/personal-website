@@ -18,7 +18,7 @@ This repository contains the source code for my **personal portfolio website**, 
   <img src="./preview/phone-size.png" alt="Mobile Preview" width="45%" align="top" />
 </p>
 
-### Desktop View  
+### Dark-Mode View  
 ![Desktop Preview](./preview/desktop-dark.png)  
 
 ---
