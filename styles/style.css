@@ -538,6 +538,7 @@ form:invalid::after {
   color: var(--color-blue);
 }
 
+
 html:has(.toggle__checkbox:checked) {
   --color-background: var(--color-black);
   --color-text: var(--color-white);
@@ -667,4 +668,4 @@ html:has(.toggle__checkbox:checked) {
     font-size: 3rem;
     font-weight: var(--font-weight-bold);
   }
-}
+}/*# sourceMappingURL=style.css.map */

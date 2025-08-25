@@ -1,0 +1,46 @@
+
+.media {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 120rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+.media__pic-content {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.media__pic {
+  width: 100%;
+  display: block;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.media__overlay-text {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  transition: bottom 0.3s ease;
+}
+
+.media__pic-content:hover .media__pic {
+  opacity: 1;
+}
+
+.media__pic-content:hover .media__overlay-text {
+  bottom: 0;
+}
+
+
