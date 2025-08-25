@@ -401,3 +401,11 @@ body,
   font-size: 1.8rem;
   transition: bottom 0.3s ease;
 }
+
+.media__pic-content:hover .media__pic {
+  opacity: 1;
+}
+
+.media__pic-content:hover .media__overlay-text {
+  bottom: 0;
+}
