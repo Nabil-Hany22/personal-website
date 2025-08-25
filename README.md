@@ -57,7 +57,7 @@ personal-website/
 │   ├── style.css         # Compiled CSS  
 │   └── style.css.map  
 │
-├── cv_file.pdf           # My resume  
+├── cv_file.pdf           # The resume  
 ├── index.html            # Main website file  
 ├── results.html          # Contact form results page  
 ├── style.scss            # Main SCSS file  
