@@ -597,9 +597,6 @@ html:has(.toggle__checkbox:checked) {
   .media .h2-heading {
     margin-bottom: 4rem;
   }
-  .section--with--bg::before {
-    background-color: transparent;
-  }
 }
 @media (max-width: 500px) {
   .bio__pic {
