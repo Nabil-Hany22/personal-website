@@ -48,7 +48,8 @@ personal-website/
 │   └── media/            # Portfolio images  
 │
 ├── preview/              # Website previews (used in README)  
-│   ├── desktop-size.png  
+│   ├── desktop-size.png
+    ├── desktop-dark.png 
 │   ├── tablet-size.png  
 │   └── phone-size.png  
 │
