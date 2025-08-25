@@ -17,27 +17,104 @@
     <title>Nabil Hany</title>
   </head>
   <body>
-          <!-- Header Start -->
-          <header class="header">
+    <!-- Header Start -->
+    <header class="header">
+      <!-- navbar -->
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li>
+            <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+          </li>
+          <li>
+            <a href="#skills" class="navigation__link navigation__skills"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a href="#media" class="navigation__link navigation__media"
+              >Media</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="navigation__link navigation__projects"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#clients" class="navigation__link navigation__clients"
+              >My Clients</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="navigation__link navigation__contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- toggle -->
+      <div class="toggle">
+        <h3 class="toggle__title">Switch Theme</h3>
+        <input
+          type="checkbox"
+          name="toggle-checkbox"
+          id="toggle"
+          class="toggle__checkbox"
+        />
+        <label for="toggle" class="toggle__label"></label>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Bio Start -->
+    <section id="bio" class="bio section">
+      <div class="bio__data">
+        <h1 class="bio__heading">
+          Hi There, I’M A Passionate Software Engineer
+        </h1>
+
+        <p class="bio__objective">
+          My name is <span class="bio__name">Nabil Hany</span>, a Frontend
+          Developer and a content creator sharing knowledge on
+          <a
+            href="https://www.linkedin.com/in/nabil-el-amrawy/"
+            class="bio__linkedin"
+            target="_blank"
+            >LinkedIn</a
+          >,
+          <a
+            href="https://x.com/Nabil_Hany22"
+            class="bio__twitter"
+            target="_blank"
+            >Twitter</a
+          >,
+          <a
+            href="https://www.facebook.com/nabil.hany.294920"
+            class="bio__facebook"
+            target="_blank"
+            >Facebook</a
+          >, and
+          <a
+            href="https://www.instagram.com/nabil.hany22/"
+            class="bio__instagram"
+            target="_blank"
+            >Instagram</a
+          >.
+        </p>
+
+        <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+        <a href="/cv_file.pdf" class="bio__links find-out-link" target="_blank"
+          >Download CV <span class="bio__arrow">↓</span></a
+        >
+      </div>
+
+      <div class="bio__pic-content">
+        <img class="bio__pic" src="images/personal-pic.png" alt="Nabil Image" />
+      </div>
+    </section>
+    <!-- Bio End -->
+
     
-            <!-- navbar -->
-            <nav class="navigation">
-              <ul class="navigation__list">
-                <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
-                <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
-                <li><a href="#media" class="navigation__link navigation__media">Media</a></li>
-                <li><a href="#projects" class="navigation__link navigation__projects">Projects</a></li>
-                <li><a href="#clients" class="navigation__link navigation__clients">My Clients</a></li>
-                <li><a href="#contact" class="navigation__link navigation__contact">Contact</a></li>
-              </ul>
-            </nav> 
-            <!-- toggle -->
-            <div class="toggle">
-              <h3 class="toggle__title">Switch Theme</h3>
-              <input type="checkbox" name="toggle-checkbox" id="toggle" class="toggle__checkbox">
-              <label for="toggle" class="toggle__label"></label>
-            </div>
-          </header>
-          <!-- Header End -->
+
   </body>
 </html>
